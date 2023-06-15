@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="staticMaster.master.cs" Inherits="HotelManageSystem.staticMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+ <link rel="shortcut icon" href="favicon.ico" />
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+		<link href="css/font-awesome.css" rel="stylesheet" />
+		<link href="css/animate.css" rel="stylesheet" />
+		<link href="css/style.css" rel="stylesheet" />
+         <link href="css/plugins/iCheck/custom.css" rel="stylesheet"/>
+    <script src="js/jquery-3.5.1.min.js"></script>
+		<script src="js/bootstrap.min.js?v=3.3.7"></script>
+		<script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+		<script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+		<script src="js/plugins/contextMenu/jquery.contextMenu.min.js"></script>
+		<script src="js/plugins/layer/layer.min.js"></script>
+        <link href="css/plugins/blueimp/css/blueimp-gallery.min.css" rel="stylesheet"/>
+
+		<!-- 自定义js -->
+		<script src="js/hplus.js"></script>
+		<script type="text/javascript" src="js/contabs.js"></script>
+		<!-- 第三方插件 -->
+		<script src="js/plugins/pace/pace.min.js"></script>
+
+        <script src="js/plugins/iCheck/icheck.min.js"></script>
+    <!-- blueimp gallery -->
+    <script src="js/plugins/blueimp/jquery.blueimp-gallery.min.js"></script>
+
+     <!-- jQuery Validation plugin javascript-->
+    <script src="js/plugins/validate/jquery.validate.min.js"></script>
+    <script src="js/plugins/validate/messages_zh.min.js"></script>
+    <script src="js/demo/form-validate-demo.js"></script>
+    <script src="js/jquery-cookie.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+			 .navbar-static-side {
+			    position: fixed;
+			   height: 100%;
+			   width: 220PX;
+                z-index: 2001;
+                -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+			}
+             #content-main {
+             height: 615px;
+             overflow: hidden;
+            }
+		</style>
+</head>
+<body class=" gray-bg" >
+    <form id="form1" runat="server">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </form>
+    
+</body>
+</html>
